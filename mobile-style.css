@@ -1,0 +1,16 @@
+@media screen and (max-width: 1260px) {
+  .illustration {
+    display: none;
+  }
+  .section {
+    height: 150vh;
+  }
+  .hackrcdu {
+    position: absolute;
+    z-index: 2;
+    font-size: 1.2rem;
+    padding: 25px;
+    left: 10%;
+    top: 15%;
+  }
+}
