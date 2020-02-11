@@ -16,10 +16,10 @@
   .hackrcdu {
     position: absolute;
     z-index: 2;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 25px;
     left: 5%;
-    top: 50%;
+    top: 45%;
   }
 
   .hackrcdu h1 {
@@ -61,11 +61,11 @@
     background-color: white;
     border-radius: 5%;
     text-align: center;
-    padding: 6px;
+    padding: 4px;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 5px;
-    height: 45px;
+    height: 30px;
     width: 30%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   }
@@ -73,11 +73,11 @@
   .apply:hover,
   .turington:hover {
     background-color: #3f5efb;
-    padding: 8px;
+    padding: 6px;
   }
 
   .apply-here a {
-    font-size: 25px;
+    font-size: 20px;
     color: #3f5efb;
     text-decoration: none;
   }
@@ -94,7 +94,7 @@
   }
 
   .icons a {
-    font-size: 35px;
+    font-size: 30px;
     color: white;
     margin-left: 5px;
   }
@@ -104,7 +104,7 @@
   }
 
   .about-section {
-    height: 120vh;
+    height: 90vh;
     margin-top: 0;
     background: white;
     display: flex;
@@ -123,7 +123,7 @@
 
   .highlights h1 {
     padding: 25px;
-    font-size: 30px;
+    font-size: 22px;
     font-family: Poppins;
   }
 
@@ -136,16 +136,16 @@
 
   .countdown li {
     display: inline-block;
-    font-size: 15px;
+    font-size: 12px;
     list-style-type: none;
-    padding: 0px 25px;
+    padding: 0px 15px;
     text-transform: uppercase;
     color: black;
   }
 
   .countdown li span {
     display: block;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .cards {
@@ -156,8 +156,8 @@
   }
 
   .card {
-    width: 150px;
-    height: 180px;
+    width: 120px;
+    height: 150px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -171,12 +171,12 @@
   }
 
   .card i {
-    padding: 35px;
+    padding: 25px;
     font-size: 2.5em;
   }
 
   .card h3 i {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .card:hover {
