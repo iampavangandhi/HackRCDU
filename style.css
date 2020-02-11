@@ -246,6 +246,7 @@ body {
 }
 
 .events-section {
+  margin-top: 10px;
   position: relative;
   display: flex;
   width: 80%;
@@ -323,6 +324,14 @@ body {
   grid-area: 4 / 4 / 5 / 9;
 }
 
+.div11 {
+  display: none;
+}
+
+.div12 {
+  display: none;
+}
+
 .event-card {
   display: flex;
   align-items: center;
@@ -365,7 +374,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 60vh;
   width: 100%;
   background-color: lightgray;
 }
@@ -383,7 +392,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 30vh;
   width: 100%;
   background-color: lightgrey;
 }

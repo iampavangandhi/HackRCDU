@@ -42,11 +42,11 @@ body {
 
 .navbar-toggle {
   position: absolute;
-  top: 12px;
+  top: 27px;
   right: 20px;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 24px;
+  font-size: 30px;
 }
 
 #chkToggle {
