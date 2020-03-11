@@ -8,20 +8,25 @@ body {
 }
 canvas {
   display: block;
-  vertical-align: bottom;
-} /* ---- particles.js container ---- */
+} 
+/* ---- particles.js container ---- */
 #particles-js {
-  position: static;
+  position: relative;
   width: 100%;
   height: 100vh;
   /* background-color: #3f5efb; */
   /* background-color: #fc466b; */
   /* background-image: url("http://hackjnu.in/images/pinkbluebg.jpg"); */
-  background-image: url("./assets/bg2.jpg");
+  /*background-image: url("./assets/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
-} /* ---- stats.js ---- */
+  background-position: 50% 50%;*/
+  background: #a8c0ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom right, #3f5efb, #fc466b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+} 
+
+/* ---- stats.js ---- */
 .count-particles {
   background: #000022;
   position: absolute;
