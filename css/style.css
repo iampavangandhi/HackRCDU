@@ -106,10 +106,11 @@ body {
   font-size: 35px;
   color: white;
   margin-left: 5px;
+  transition: all ease;
 }
 
-.icons a:hover {
-  font-size: 38px;
+.icons a:hover i {
+  transform: scale(1.1);
 }
 
 .about-section {
