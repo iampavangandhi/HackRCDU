@@ -121,16 +121,6 @@
     margin-top: 10px;
   }
 
-  .icons a {
-    font-size: 30px;
-    color: white;
-    margin-left: 5px;
-  }
-
-  .icons a:hover {
-    font-size: 38px;
-  }
-
   .about-section {
     height: 115vh;
     margin-top: 0;
@@ -178,6 +168,7 @@
   }
 
   .prize {
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,7 +184,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 260px;
+    width: 100%;
     height: 75px;
     margin: 10px;
     margin-bottom: 0;
@@ -208,7 +199,7 @@
   }
 
   .card {
-    width: 120px;
+    width: 40%;
     height: 150px;
     margin: 10px;
     display: flex;
@@ -216,8 +207,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 2%;
-    border: 1.5px lightgray solid;
     background-color: #eeeeee;
   }
 
@@ -228,10 +217,6 @@
 
   .card h3 i {
     font-size: 2.5rem;
-  }
-
-  .card:hover {
-    border: 3px lightgray solid;
   }
 
   .schedule-section {
@@ -262,7 +247,7 @@
   }
 
   .theme-card {
-    width: 210px;
+    width: 80%;
     height: 220px;
     margin: 8px;
     display: flex;
@@ -270,8 +255,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 2%;
-    border: 1.5px lightgray solid;
     background-color: #eeeeee;
   }
 

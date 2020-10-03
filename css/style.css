@@ -14,7 +14,7 @@ body {
 }
 
 .section {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .hero-section {
@@ -108,13 +108,14 @@ body {
 }
 
 .icons a {
-  font-size: 35px;
-  color: white;
-  margin-left: 5px;
+  display: inline-block;
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 10px;
 }
 
 .icons a:hover {
-  font-size: 38px;
+  color: rgba(255, 255, 255, 0.85)
 }
 
 .about-section {
@@ -193,8 +194,7 @@ body {
   height: 75px;
   margin: 20px;
   margin-bottom: 0;
-  border-radius: 2%;
-  border: 1px lightgray solid;
+  border-radius: 4px;
   background: linear-gradient(to right, #36d1dc, #5b86e5);
   box-shadow: var(--shadow);
 }
@@ -215,8 +215,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 2%;
-  border: 1.5px lightgray solid;
+  border-radius: 4px;
   background-color: #eeeeee;
   box-shadow: var(--shadow);
 }
@@ -232,7 +231,6 @@ body {
 
 .card:hover {
   box-shadow: var(--shadow-lg);
-  border: 3px lightgray solid;
 }
 
 .schedule-section {
@@ -276,8 +274,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 2%;
-  border: 1.5px lightgray solid;
+  border-radius: 4px;
   background-color: #eeeeee;
   box-shadow: var(--shadow);
 }
