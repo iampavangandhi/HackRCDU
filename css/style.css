@@ -91,6 +91,7 @@ body {
   padding: 12px 20px;
   text-align: center;
   text-transform: lowercase;
+  transition: background 300ms;
 }
 
 #devfolio-apply-now:not([disabled]) {
@@ -218,6 +219,7 @@ body {
   border-radius: 4px;
   background-color: #eeeeee;
   box-shadow: var(--shadow);
+  transition: box-shadow 300ms;
 }
 
 .card i {
@@ -277,11 +279,17 @@ body {
   border-radius: 4px;
   background-color: #eeeeee;
   box-shadow: var(--shadow);
+  transition: transform 300ms, box-shadow 300ms;
 }
 
 .theme-card i {
   font-size: 3rem;
   margin-bottom: 20px;
+}
+
+.theme-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-5px);
 }
 
 .event-schedule {
