@@ -267,11 +267,9 @@
   }
 
   .schedule-section-section {
-    position: absolute;
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
     width: 95%;
     background-color: white;
   }
