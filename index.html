@@ -69,6 +69,7 @@
     <!-- Header -->
     <header id="hero-section" class="section hero-section">
       <div id="particles-js" class="particles">
+        <div id="backdrop" style="display: none;"></div>
         <nav class="navbar">
             <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
                 <i class="fa fa-bars"></i>
@@ -447,6 +448,25 @@
         window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
       });
     }
+
+    //get checkbox input for navbar
+    const navCheck = document.getElementById('chkToggle');
+    //get id for Backdrop
+    const backdrop = document.getElementById('backdrop');
+
+    navCheck.addEventListener('change',() => {
+      backdrop.style.display = 'initial';
+    })
+
+
+    //add click eventListener to Backdrop so as to close navbar in mobile-view
+    backdrop.addEventListener('click',() => {
+      if(navCheck.checked){
+        navCheck.checked = false;
+        backdrop.style.display = 'none';
+      }
+    })
+
 });
 </script>
 

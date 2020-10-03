@@ -1,10 +1,53 @@
-@media screen and (max-width: 1260px) {
-  .illustration {
-    display: none;
+@media screen and (max-width: 1356px) {
+  .hero-section {
+    height: 100vh;
+    position: relative;
   }
+
+  .hackrcdu {
+    position: absolute;
+    z-index: 2;
+    font-size: 1.2rem;
+    padding: 25px;
+    left: 5%;
+    width: 50%;
+  }
+
+  .hackrcdu h1 {
+    font-family: Poppins;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .hackrcdu h3 {
+    font-family: Poppins;
+    padding-bottom: 10px;
+    color: white;
+  }
+
+  .hackrcdu h5 {
+    font-size: 25px;
+    font-family: Poppins;
+    color: white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  .illustration {
+    display: block;
+  }
+
+  .hero-img {
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    right: 5%;
+    z-index: 0;
+  }
+
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .hero-section {
     height: 90vh;
     position: relative;
@@ -18,8 +61,10 @@
     z-index: 2;
     font-size: 1.2rem;
     padding: 25px;
+    margin-top: 50px;
     left: 5%;
     top: 40%;
+    width: 90%;
   }
 
   .hackrcdu h1 {
@@ -45,7 +90,7 @@
   .illustration {
     position: relative;
     z-index: 0;
-    display: none;
+    display: block;
   }
 
   .hero-img {
@@ -416,7 +461,7 @@
   }
 
   .event-card h2 {
-    color: white;
+    color: #212529;
     font-size: 22px;
     font-family: Poppins;
   }

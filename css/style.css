@@ -8,6 +8,16 @@ body {
   scroll-behavior: smooth;
 }
 
+#backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+}
+
 .section {
   height: 100vh;
 }
@@ -430,7 +440,7 @@ body {
 }
 
 .event-card h2 {
-  color: white;
+  color: #212529;
   font-family: Poppins;
 }
 
