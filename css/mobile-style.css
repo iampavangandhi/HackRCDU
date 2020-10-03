@@ -10,9 +10,6 @@
     position: relative;
   }
 
-  .particles {
-  }
-
   .hackrcdu {
     position: absolute;
     z-index: 2;
@@ -94,7 +91,6 @@
   }
 
   #devfolio-apply-now {
-    display: flex;
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
