@@ -68,7 +68,7 @@
     margin-right: 5px;
     height: 35px;
     width: 48%;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: var(--shadow);
   }
 
   .apply img {
@@ -223,7 +223,6 @@
     border-radius: 2%;
     border: 1.5px lightgray solid;
     background-color: #eeeeee;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
   }
 
   .card i {
@@ -236,7 +235,6 @@
   }
 
   .card:hover {
-    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
     border: 3px lightgray solid;
   }
 
@@ -279,7 +277,6 @@
     border-radius: 2%;
     border: 1.5px lightgray solid;
     background-color: #eeeeee;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
   }
 
   .event-schedule {

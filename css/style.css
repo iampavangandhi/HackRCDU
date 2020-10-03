@@ -1,3 +1,8 @@
+:root {
+  --shadow: 0 4px 6px -5px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 8px 10px -5px rgba(0, 0, 0, 0.10);
+}
+
 html,
 body {
   padding: 0;
@@ -191,7 +196,7 @@ body {
   border-radius: 2%;
   border: 1px lightgray solid;
   background: linear-gradient(to right, #36d1dc, #5b86e5);
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--shadow);
 }
 
 .cards {
@@ -213,7 +218,7 @@ body {
   border-radius: 2%;
   border: 1.5px lightgray solid;
   background-color: #eeeeee;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--shadow);
 }
 
 .card i {
@@ -226,7 +231,7 @@ body {
 }
 
 .card:hover {
-  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--shadow-lg);
   border: 3px lightgray solid;
 }
 
@@ -274,7 +279,7 @@ body {
   border-radius: 2%;
   border: 1.5px lightgray solid;
   background-color: #eeeeee;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--shadow);
 }
 
 .theme-card i {
@@ -630,7 +635,7 @@ footer h4 a span {
   max-width: 600px;
   padding: 5px;
   width: 100%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow);
   animation: float 5s infinite;
 }
 
