@@ -100,11 +100,11 @@
     border: none;
     color: #ffffff;
     cursor: pointer;
+    outline: none;
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
     height: 50px;
-    padding: 6px;
     margin-top: 5px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -112,7 +112,7 @@
     font-weight: 600;
     /* padding: 8px 16px; */
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: var(--shadow-lg);
   }
 
   .icons {
