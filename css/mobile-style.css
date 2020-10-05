@@ -5,6 +5,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .main-nav{
+    background-color: rgba(31, 31, 31, .5);
+  }
   .hero-section {
     height: 90vh;
     position: relative;

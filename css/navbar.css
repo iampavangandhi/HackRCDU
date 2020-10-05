@@ -18,10 +18,12 @@ body {
   display: none;
   margin-top: 12px;
   padding-right: 5%;
+ 
 }
 
 .nav-links,
 .hacklogo {
+ 
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -71,6 +73,7 @@ body {
   }
 
   .main-nav {
+    padding-bottom: 20px;
     display: flex;
     margin-right: 30px;
     flex-direction: row;
