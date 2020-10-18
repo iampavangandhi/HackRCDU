@@ -4,7 +4,7 @@ const second = 1000,
   day = hour * 24;
 
 let countDown = new Date("Feb 27, 2020 09:00:00").getTime(),
-  x = setInterval(function() {
+  x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
 
@@ -33,8 +33,13 @@ let countDown = new Date("Feb 27, 2020 09:00:00").getTime(),
 const items = document.querySelectorAll(".accordion a");
 
 function toggleAccordion() {
+  console.log(items);
+  items.forEach((item) => {
+    item.classList.remove("active");
+    item.nextElementSibling.classList.remove("active");
+  });
   this.classList.toggle("active");
   this.nextElementSibling.classList.toggle("active");
 }
 
-items.forEach(item => item.addEventListener("click", toggleAccordion));
+items.forEach((item) => item.addEventListener("click", toggleAccordion));

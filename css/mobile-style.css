@@ -5,9 +5,10 @@
 }
 
 @media screen and (max-width: 600px) {
-  .main-nav{
-    background-color: rgba(31, 31, 31, .5);
+  .main-nav {
+    background-color: rgba(31, 31, 31, 0.5);
   }
+
   .hero-section {
     height: 90vh;
     position: relative;
@@ -273,6 +274,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
     width: 95%;
     background-color: white;
   }
@@ -430,13 +432,18 @@
     font-size: 1rem;
   }
 
+  .sponsors h1 {
+    font-family: Poppins;
+  }
+
   .sponsors {
     margin-top: 10px;
     margin-bottom: 10px;
   }
 
   .sponsors-list {
-    height: 120vh;
+    padding: 0;
+    height: 72vh;
   }
 
   .sponsors-list-list {
@@ -483,7 +490,7 @@
   }
 
   footer {
-    height: 30vh;
+    height: 25vh;
     font-size: 0.9rem;
     background-color: #212529;
   }
