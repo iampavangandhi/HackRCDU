@@ -39,6 +39,7 @@ body {
   padding: 25px;
   left: 10%;
   top: 25%;
+  z-index: 1;
 }
 
 .hackrcdu h1 {
@@ -164,12 +165,19 @@ body {
 }
 
 .countdown li {
+  background: linear-gradient(
+    to bottom right,
+    #12c2e9,
+    #c471ed
+  );
+  margin: 5px;
+  border-radius: 10px;;
   display: inline-block;
   font-size: 25px;
   list-style-type: none;
-  padding: 0px 25px;
+  padding: 10px 25px;
   text-transform: uppercase;
-  color: black;
+  color: #fff;
 }
 
 .countdown li span {
@@ -185,6 +193,7 @@ body {
 }
 
 .prize-card {
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,6 +220,7 @@ body {
   margin: 30px;
   margin-top: 20px;
   margin-bottom: 40px;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -239,15 +249,13 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  background-image: url("../assets/bg3.jpg");
   font-size: 1.5rem;
 }
 
 .themes-section {
-  height: 150vh;
+  height: 100vh;
   margin-top: 0;
-  margin-bottom: 50px;
-  background: white;
+  background: linear-gradient(to right bottom, rgb(63, 94, 251), rgb(252, 70, 107));
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -257,6 +265,7 @@ body {
 }
 
 .themes-section h1 {
+  color: #fff;
   font-family: Poppins;
   margin-bottom: 40px;
 }
@@ -268,6 +277,7 @@ body {
 }
 
 .theme-card {
+  color: #fff;
   width: 400px;
   height: 360px;
   margin: 10px;
