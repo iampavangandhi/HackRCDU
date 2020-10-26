@@ -1,6 +1,6 @@
 particlesJS("particles-js", {
   particles: {
-    number: { value: 100, density: { enable: true, value_area: 800 } },
+    number: { value: 50, density: { enable: true, value_area: 800 } },
     color: { value: "#ffffff" },
     shape: {
       type: "circle",
@@ -39,7 +39,7 @@ particlesJS("particles-js", {
   interactivity: {
     detect_on: "canvas",
     events: {
-      onhover: { enable: true, mode: "grab" },
+      onhover: { enable: false, mode: "grab" },
       onclick: { enable: true, mode: "repulse" },
       resize: true,
     },
